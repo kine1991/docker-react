@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React3
         </a>
       </header>
     </div>
@@ -24,3 +24,7 @@ function App() {
 }
 
 export default App;
+// docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app fbca85cfc315
+// docker-compose up
+// docker build -f Dockerfile.dev .
+// docker exec -it c15e0de99a56 npm run test
